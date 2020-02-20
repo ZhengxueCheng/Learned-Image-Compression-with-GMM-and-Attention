@@ -18,11 +18,12 @@ To our knowledge our approach is the first work to achieve comparable performanc
 Python==3.6.4
 Tensorflow==1.9.0
 
+### Test Demo
+* usage:
+
 ### Training
 * usage:
 
-### Test
-* usage: 
 
 ## Reconstructed Samples
 
