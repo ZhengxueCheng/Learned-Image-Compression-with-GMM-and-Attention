@@ -14,6 +14,10 @@ To our knowledge our approach is the first work to achieve comparable performanc
 
 ## Implementations
 
+### Environment 
+Python==3.6.4
+Tensorflow==1.9.0
+
 ### Training
 * usage:
 
@@ -24,15 +28,15 @@ To our knowledge our approach is the first work to achieve comparable performanc
 
 Comparisons of reconstructed samples are given in the following.
 
+![](https://github.com/ZhengxueCheng/Learned-Image-Compression-with-GMM-and-Attention/blob/master/figures/visualizationKodim21Ver2.png)
+
 
 ## Evaluation Results
 
-
-
+![](https://github.com/ZhengxueCheng/Learned-Image-Compression-with-GMM-and-Attention/blob/master/figures/RD.PNG)
 
 ## Notes
 
-## Acknowledgement
 
 
 
