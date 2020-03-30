@@ -1,6 +1,6 @@
 # Learned-Image-Compression-with-GMM-and-Attention
 
-This repository contains the code for reproducing the results and trained models, in the following paper:
+This repository contains the code for reproducing the results with trained models, in the following paper:
 
 Learned Image Compression with Discretized Gaussian Mixture Likelihoods and Attention Modules. [arXiv](https://arxiv.org/abs/2001.01568)
 
@@ -24,8 +24,10 @@ To our knowledge our approach is the first work to achieve comparable performanc
 
 
 ```
-    pip3 install tensorflow-compression  or
-
+    pip3 install tensorflow-compression
+```
+or
+```
     pip3 install tensorflow_compression-1.2-cp36-cp36m-manylinux1_x86_64.whl
 ```
 
@@ -39,7 +41,8 @@ To our knowledge our approach is the first work to achieve comparable performanc
 
 ```
     python3 encoder.py
-
+```
+```
     python3 decoder.py
 ```
 
@@ -59,8 +62,7 @@ Comparisons of reconstructed samples are given in the following.
 
 This implementations are not original codes of our CVPR2020 paper, because original code is based on Tensorflow 1.9.0 and many features have been removed. This repo is a re-implementation although the core codes are amost the same and performance is also consistent with original results. This repo is also submitted to CVPR Workshop and Challenge on Leanred Image Challenge ([CLIC] (http://www.compression.cc/)) with the entry Kattolab.
 
-If you think it is useful for your reseach, please cite our CVPR2020 paper.
-
+If you think it is useful for your reseach, please cite our CVPR2020 paper. Our original RD data in the paper is contained in the data/.
 
 
 
