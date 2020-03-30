@@ -12,18 +12,33 @@ Recently, learned compression methods exhibit a fast development trend with prom
 
 To our knowledge our approach is the first work to achieve comparable performance with latest compression standard Versatile Video Coding (VVC) regarding PSNR. More importantly, our approach can generate more visually pleasant results when optimized by MS-SSIM.
 
-## Implementations
+
 
 ### Environment 
+
 Python==3.6.4
-Tensorflow==1.9.0
 
-### Test Demo
-* usage:
+Tensorflow==1.14.0
 
-### Training
-* usage:
+[tensorflow-compression](https://github.com/tensorflow/compression)
 
+(pip3 install tensorflow-compression)
+
+or
+
+(pip3 install tensorflow_compression-1.2-cp36-cp36m-manylinux1_x86_64.whl)
+
+### Test
+
+* usage: 
+
+Download the pre-trained [models](https://drive.google.com/open?id=19b92ey1g30R2OvWupekLQNb3TjHs5HLX) (this model is optimized by MS-SSIM using lambda = 14) and unzip it.
+
+Put your images to the directory valid/
+
+python3 encoder.py
+
+python3 decoder.py
 
 ## Reconstructed Samples
 
@@ -37,6 +52,11 @@ Comparisons of reconstructed samples are given in the following.
 ![](https://github.com/ZhengxueCheng/Learned-Image-Compression-with-GMM-and-Attention/blob/master/figures/RD.PNG)
 
 ## Notes
+
+This implementations are not original codes of our CVPR2020 paper, because original code is based on Tensorflow 1.9.0 and many features have been removed currently. This code is a re-implementation although the core code is amost the same and performance is also consistent with original results. It is also submitted to participate the CVPR Workshop and Challenge on Leanred Image Challenge ([CLIC] (http://www.compression.cc/)) with the entry Kattolab.
+
+If you think it is useful for your reseach, please cite our CVPR2020 paper.
+
 
 
 
