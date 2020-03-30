@@ -22,9 +22,13 @@ To our knowledge our approach is the first work to achieve comparable performanc
 
 * [Tensorflow-Compression](https://github.com/tensorflow/compression) ==1.2
 
-pip3 install tensorflow-compression or
 
-pip3 install tensorflow_compression-1.2-cp36-cp36m-manylinux1_x86_64.whl
+```
+    pip3 install tensorflow-compression  or
+
+    pip3 install tensorflow_compression-1.2-cp36-cp36m-manylinux1_x86_64.whl
+```
+
 
 ### Test Usage
 
@@ -32,11 +36,13 @@ pip3 install tensorflow_compression-1.2-cp36-cp36m-manylinux1_x86_64.whl
 
 * Put your images to the directory valid/ and run the py files
 
-'''
-python3 encoder.py
 
-python3 decoder.py
-'''
+```
+    python3 encoder.py
+
+    python3 decoder.py
+```
+
 
 ## Reconstructed Samples
 
