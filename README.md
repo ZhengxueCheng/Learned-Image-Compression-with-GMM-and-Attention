@@ -16,29 +16,27 @@ To our knowledge our approach is the first work to achieve comparable performanc
 
 ### Environment 
 
-Python==3.6.4
+* Python==3.6.4
 
-Tensorflow==1.14.0
+* Tensorflow==1.14.0
 
-[tensorflow-compression](https://github.com/tensorflow/compression)
+* [Tensorflow-Compression](https://github.com/tensorflow/compression) ==1.2
 
-(pip3 install tensorflow-compression)
+pip3 install tensorflow-compression or
 
-or
+pip3 install tensorflow_compression-1.2-cp36-cp36m-manylinux1_x86_64.whl
 
-(pip3 install tensorflow_compression-1.2-cp36-cp36m-manylinux1_x86_64.whl)
+### Test Usage
 
-### Test
+* Download the pre-trained [models](https://drive.google.com/open?id=19b92ey1g30R2OvWupekLQNb3TjHs5HLX) (this model is optimized by MS-SSIM using lambda = 14) and unzip it.
 
-* usage: 
+* Put your images to the directory valid/ and run the py files
 
-Download the pre-trained [models](https://drive.google.com/open?id=19b92ey1g30R2OvWupekLQNb3TjHs5HLX) (this model is optimized by MS-SSIM using lambda = 14) and unzip it.
-
-Put your images to the directory valid/
-
+'''
 python3 encoder.py
 
 python3 decoder.py
+'''
 
 ## Reconstructed Samples
 
@@ -53,7 +51,7 @@ Comparisons of reconstructed samples are given in the following.
 
 ## Notes
 
-This implementations are not original codes of our CVPR2020 paper, because original code is based on Tensorflow 1.9.0 and many features have been removed currently. This code is a re-implementation although the core code is amost the same and performance is also consistent with original results. It is also submitted to participate the CVPR Workshop and Challenge on Leanred Image Challenge ([CLIC] (http://www.compression.cc/)) with the entry Kattolab.
+This implementations are not original codes of our CVPR2020 paper, because original code is based on Tensorflow 1.9.0 and many features have been removed. This repo is a re-implementation although the core codes are amost the same and performance is also consistent with original results. This repo is also submitted to CVPR Workshop and Challenge on Leanred Image Challenge ([CLIC] (http://www.compression.cc/)) with the entry Kattolab.
 
 If you think it is useful for your reseach, please cite our CVPR2020 paper.
 
