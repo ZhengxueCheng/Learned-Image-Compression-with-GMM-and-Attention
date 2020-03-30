@@ -2,7 +2,7 @@
 
 This repository contains the code for reproducing the results with trained models, in the following paper:
 
-Learned Image Compression with Discretized Gaussian Mixture Likelihoods and Attention Modules. [arXiv](https://arxiv.org/abs/2001.01568)
+Learned Image Compression with Discretized Gaussian Mixture Likelihoods and Attention Modules. [arXiv](https://arxiv.org/abs/2001.01568), CVPR2020.
 
 Zhengxue Cheng, Heming Sun, Masaru Takeuchi, Jiro Katto
 
