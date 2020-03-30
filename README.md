@@ -62,7 +62,7 @@ Comparisons of reconstructed samples are given in the following.
 
 This implementations are not original codes of our CVPR2020 paper, because original code is based on Tensorflow 1.9.0 and many features have been removed. This repo is a re-implementation although the core codes are amost the same and performance is also consistent with original results. This repo is also submitted to CVPR Workshop and Challenge on Leanred Image Challenge ([CLIC] (http://www.compression.cc/)) with the entry Kattolab.
 
-If you think it is useful for your reseach, please cite our CVPR2020 paper. Our original RD data in the paper is contained in the data/.
+If you think it is useful for your reseach, please cite our CVPR2020 paper. Our original RD data in the paper is contained in the folder RDdata/.
 
 
 
