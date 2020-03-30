@@ -12,25 +12,24 @@ Recently, learned compression methods exhibit a fast development trend with prom
 
 To our knowledge our approach is the first work to achieve comparable performance with latest compression standard Versatile Video Coding (VVC) regarding PSNR. More importantly, our approach can generate more visually pleasant results when optimized by MS-SSIM.
 
-
-
 ### Environment 
 
 * Python==3.6.4
 
 * Tensorflow==1.14.0
 
+* [RangeCoder](https://github.com/lucastheis/rangecoder)
+
+```   
+    pip3 install range-coder
+```
+
 * [Tensorflow-Compression](https://github.com/tensorflow/compression) ==1.2
 
-
 ```
-    pip3 install tensorflow-compression
-```
-or
-```
+    pip3 install tensorflow-compression or 
     pip3 install tensorflow_compression-1.2-cp36-cp36m-manylinux1_x86_64.whl
 ```
-
 
 ### Test Usage
 
