@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-#import os
+import os
 #os.system('pip3 install tensorflow_compression-1.2-cp36-cp36m-manylinux1_x86_64.whl')
 from glob import glob
 from network import decompress

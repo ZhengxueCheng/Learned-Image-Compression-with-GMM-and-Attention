@@ -11,6 +11,10 @@ from network import compress
 
 
 def main():
+
+  if not os.path.isdir('./images'):
+    os.makedirs('./images')
+    
  
   for image_file in glob('valid/*.png'):
     print(image_file[6:])
