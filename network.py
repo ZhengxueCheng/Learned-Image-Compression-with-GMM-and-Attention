@@ -569,7 +569,6 @@ def compress(input, output, num_filters, checkpoint_dir):
         os.remove(output)
 
       fileobj = open(output, mode='wb')
-      fileobj.write(np.array(model_flag, dtype=np.uint8).tobytes())
       fileobj.write(np.array(x_shape[1:-1], dtype=np.uint16).tobytes())
       fileobj.write(np.array([len(string), minmax], dtype=np.uint16).tobytes())
       fileobj.write(np.array(num, dtype=np.uint8).tobytes())
