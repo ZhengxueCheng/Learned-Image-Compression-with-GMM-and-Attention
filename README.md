@@ -63,7 +63,7 @@ This implementations are not original codes of our CVPR2020 paper, because origi
 
 If you think it is useful for your reseach, please cite our CVPR2020 paper. Our original RD data in the paper is contained in the folder RDdata/.
 ```
-    @inproceedings{cheng2020image,
+@inproceedings{cheng2020image,
     title={Learned Image Compression with Discretized Gaussian Mixture Likelihoods and Attention Modules},
     author={Cheng, Zhengxue and Sun, Heming and Takeuchi, Masaru and Katto, Jiro},
     booktitle= "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
