@@ -62,7 +62,14 @@ Comparisons of reconstructed samples are given in the following.
 This implementations are not original codes of our CVPR2020 paper, because original code is based on Tensorflow 1.9.0 and many features have been removed. This repo is a re-implementation, but the core codes are almost the same and results are also consistent with original results. This repo is also submitted to CVPR Workshop and Challenge on Leanred Image Challenge ([CLIC] (http://www.compression.cc/)) with the entry Kattolab in the Leaderboard.
 
 If you think it is useful for your reseach, please cite our CVPR2020 paper. Our original RD data in the paper is contained in the folder RDdata/.
-
+```
+    @inproceedings{cheng2020image,
+    title={Learned Image Compression with Discretized Gaussian Mixture Likelihoods and Attention Modules},
+    author={Cheng, Zhengxue and Sun, Heming and Takeuchi, Masaru and Katto, Jiro},
+    booktitle= "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    year={2020}
+}
+```
 
 
 
